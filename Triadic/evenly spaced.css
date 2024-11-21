@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    color: red;
+    font-family: Pollos;
+}
+
+@font-face {
+    font-family: Pollos;
+    src: url(./JI\ Burrito.ttf);
+}
