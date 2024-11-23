@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    color: red;
+    font-family: Pollos;
+    font-size: larger;
+    height: 2000px;
+}
+
+@font-face {
+    font-family: Pollos;
+    src: url(./JI\ Burrito.ttf);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+nav{
+    border: 5px solid rgb(194, 85, 85);
+    background-color: rgb(0, 166, 255);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    /* Boring adjustments. Width makes the navbar take up the whole screen. */
+}
+
+
+nav ul li{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    /* Spaces the links from each other */
+}
+
+
+nav ul li p{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(174, 84, 84);
+}
+
+nav ul li a{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(174, 84, 84);
+}
+
+#logo{
+    display: block;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    border: 5px double rgb(174, 84, 84);
+    background-color: rgb(0, 166, 255);
+    padding: 5px;
+    margin: 20px;
+    clear: both;
+}
+
+#text1{
+    float: left;
+    width: 68%;
+}
+
+#text2{
+    float: right;
+    width: 74%;
+}
+
+#text3{
+    float: left;
+    width: 69%; /* Nice */
+}
+
+#meal{
+    border: 5px double rgb(194, 85, 85);
+    background-color: rgb(0, 166, 255);
+    padding: 5px;
+    margin: 25px;
+    float: right;
+}
+
+#village{
+    border: 5px double rgb(194, 85, 85);
+    background-color: rgb(0, 166, 255);
+    padding: 5px;
+    margin: 25px;
+    float: left;
+}
+
+#fry{
+    border: 5px double rgb(194, 85, 85);
+    background-color: rgb(0, 166, 255);
+    padding: 5px;
+    margin: 25px;
+    float: right;
+}
+
+.button1{
+    margin-top: 150px;
+    float: left;
+    margin-left: 60px;
+    clear: both;
+    width: 40%;
+    background-color:rgb(0, 166, 255);
+}
+
+.button2{
+    margin-top: 150px;
+    float: right;
+    width: 40%;
+    background-color: rgb(0, 166, 255);
+    margin-right: 60px;
+}
+
+.buttons h1{
+    border: 5px double rgb(174, 84, 84);
+}
+
+.buttons h1:hover{
+    color: rgb(121, 25, 25);
+    background-color:rgb(0, 111, 180);
+}
+
+footer{
+    position: fixed; /* Fixes the navbar down all the way to the bottom. Required for bottom 0 to work. */
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 166, 255);
+    color: rgb(255, 0, 0);
+    height: auto; /* Automatically fits in with the text */
+    bottom: 0;
+    width: 100%;
+}
+

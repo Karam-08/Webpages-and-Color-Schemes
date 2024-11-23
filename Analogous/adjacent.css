@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E18A01;
+    color: #E03F00;
+    font-size: larger;
+    height: 1600px;
+    font-family:cursive
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+nav{
+    border: 5px solid rgb(194, 85, 85);
+    background-color: #E0C100;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    /* Boring adjustments. Width makes the navbar take up the whole screen. */
+}
+
+
+nav ul li{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    /* Spaces the links from each other */
+}
+
+
+nav ul li p{
+    padding: 5px;
+    font-size: larger;
+    color: #E06E00;
+}
+
+nav ul li a{
+    padding: 5px;
+    font-size: larger;
+    color: #E06E00;
+}
+
+/* Both of these basically do the same thing */
+
+#logo{
+    display: block;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    border: 5px double #E06E00;
+    background-color: #E0C100;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+#Lemon{
+    padding: 15px;
+    background-color: #E0C100;
+    border: 5px solid #E06E00;
+}
+
+#descrip{
+    border: 5px solid rgb(194, 85, 85);
+    background-color: #E0C100;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.button1{
+    padding: 5px;
+    margin-top: 150px;
+    float: left;
+    margin-left: 60px;
+    clear: both;
+    width: 40%;
+    background-color:#E0C100;
+}
+
+.button2{
+    padding: 5px;
+    margin-top: 150px;
+    float: right;
+    width: 40%;
+    background-color: #E0C100;
+    margin-right: 60px;
+}
+
+.buttons h1{
+    border: 5px solid #E06E00;
+}
+
+.buttons h1:hover{
+    color: rgb(121, 25, 25);
+    background-color:#A69200;
+}
+
+footer{
+    position: fixed; /* Fixes the navbar down all the way to the bottom. Required for bottom 0 to work. */
+    text-align: center;
+    padding: 10px;
+    background-color: #E0C100;
+    color: rgb(255, 0, 0);
+    height: auto; /* Automatically fits in with the text */
+    bottom: 0;
+    width: 100%;
+}
+
